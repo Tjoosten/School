@@ -1,24 +1,33 @@
-Bedoeling zo weinig mogelijk punten halen. Elke slag is 1 punt. Indien 7 slagen komt er een strafpunt bij.
+Bedoeling zo weinig mogelijk punten halen. Elke slag is 1 punt. Indien 7 slagen komt er een strafpunt bij. <br />
+er zijn 18 banen.
 
 **Oefening:**
 ```
 begin programma
-  lees slagen = invoer aantal slagen.
-  lees punten = 0
+  baan = 0 
   
-  if slagen > 7
-    then druk slagen + 1
-  else if slagen < 7
-    var punten + 1
+  while baan < 18
+    do slag = 1 
     
-    druk slagen.
-  else
-    druk uw hebt 8 punten voor deze baan.
-  endif
-
+    while slaag < 7
+      do bal slagen
+      
+      if bal in het holleke 
+        then punten = slaag
+          slaag = 8
+      else if slaag  = 7
+        then punten = 8
+      endif
+      
+      slaag = slaag + 1
+    endforwhile
+    
+    baan = baan + 1
+    totaal = totaal + punten
+  endforwhile
+  
+  druk totaal
 eind programma
 ```
 
-**Klassikale oplossing:**
-```
-```
+**Correctie check:** 
