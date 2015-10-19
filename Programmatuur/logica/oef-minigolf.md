@@ -9,14 +9,16 @@ begin programma
   if slagen > 7
     then druk slagen + 1
   else if slagen < 7
-    var slagen + 1
+    var punten + 1
     
     druk slagen.
+  else
+    druk uw hebt 8 punten voor deze baan.
   endif
 
 eind programma
 ```
 
-Klassikale oplossing: 
+**Klassikale oplossing:**
 ```
 ```
