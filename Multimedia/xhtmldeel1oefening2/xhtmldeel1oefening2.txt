@@ -1,1 +1,19 @@
+V = vraag
+A = antwoord
 
+V: 1) Surf met Mozilla Firefox naar http://www.campiniamedia.be/. Bekijk de broncode, Welke DTD wordt hier gebruikt?
+V: 2) Welke trefwoorden worden meegegeven aan de browser?
+V: 3) Hoeveel titels (kop 1, kop 2, enz.) worden er op deze pagina gebruikt. 
+V: 4) Hoeveel paragrafen worden er op deze pagina gebruikt? 
+V: 5) Valideer de web pagina. Is deze pagina valide?
+V: 6) In de code staat <link rel="shortcut icon" href="/favicon.ico" />. Zoek op het internet wat dit
+      code betekent. Waar zie je het effect van deze lijn code in firefox?
+
+A: 1) Geen aangezien de website is geupdate, en een HTML5 doctype declaratatie heeft. 
+      Want dat is ook niet nodig aangezien HTML5 niet gebaseerd is op SGML.
+A: 2) Geen
+A: 3) <h1> = 1, <h2> = 0, <h3> = 0, <h4> = 0, <h5> = 0, <h6> = 0
+A: 4) Er worden 4 paragrafen gebruikt.
+A: 5) De pagina is niet valide.
+A: 6) De favicon. Is meestal zichtbaar in het tab'ke van je browser venster. Wel opgepast niet elke
+      Browser laat lokaal het favicon zien ondanks het er wel aanwezig is.
