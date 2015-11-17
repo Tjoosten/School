@@ -1,0 +1,28 @@
+body  {
+	font-family: arial, sas-serif;
+	font-size: 120%;
+}
+
+h3 {
+	font-variant: small-camps;
+}
+
+h2 { 
+	text-decoration: underline;
+}
+
+p a {
+	font-style: italic;
+}
+
+#text-bold {
+	font-weight: bold;
+}
+
+.hoofdletters {
+	text-transform: uppercase;
+}
+
+.onderlijnen {
+	text-decoration: underline;
+}
