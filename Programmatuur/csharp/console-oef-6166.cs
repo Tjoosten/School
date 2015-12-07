@@ -11,6 +11,7 @@ namespace oef6._1._6._6
     {
         static void Main(string[] args)
         {
+            // Lees het bestand. Met de ingebouwde lezer van System.IO.
             StreamReader lezer = new StreamReader("oef6166.txt");
 
             int L, M, P;
@@ -92,6 +93,20 @@ namespace oef6._1._6._6
             for (int i = 0; i < P; i++)
             {
                 Console.Write(C[i].ToString().PadLeft(5));
+            }
+
+            // Zet de cursor vanvoor.
+            // De cursor staat nu in het begin voor van een lijn
+            Console.WriteLine();
+
+            if (I<L)
+            {
+                Console.WriteLine("Er zijn nog elementen van rij A");
+
+                for (int i = I; i < L; i++)
+                {
+                    Console.Write(A[I].ToString().PadLeft(5));
+                }
             }
 
             // Stop hammertime, halt the system.
