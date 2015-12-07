@@ -109,6 +109,19 @@ namespace oef6._1._6._6
                 }
             }
 
+            // De cursor staat op het einde van de lijn? 
+            Console.WriteLine(); // De cursor in het begin van de lijn plaatsen. 
+
+            if (J<M)
+            {
+                Console.WriteLine("Er zijn nog elementen van rij B");
+
+                for (int i = J; i < K; i++)
+                {
+                    Console.Write(B[i].ToString().PadLeft(5));
+                }
+            }
+
             // Stop hammertime, halt the system.
             Console.Read();
            
