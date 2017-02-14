@@ -17,8 +17,6 @@ begin
   lees aantalVolwassenen 
   lees aantalKinderen
 
-    
-
   prijsTotaal = (aantalKinderen * prijsKinderen) + (prijsVolwassenen * aantalVolwassenen)
 
   druk prijsTotaal
