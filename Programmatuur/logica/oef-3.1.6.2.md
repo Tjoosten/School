@@ -8,11 +8,15 @@ inleest en prijs inclusief BTW berekent en afdrukt.
 
 ```
 begin 
-  prijs, btw, prijsInclusief, prijsExclusief :double 
+  btwbedrag, btw, prijsInclusief, prijsExclusief :double 
 
-  prijsExclusief = prijs / 100 * btw
-  prijsInclusief = prijs + prijsExclusief
+  lees btw
+  lees prijsExclusief 
+
+  btwbedrag = prijsExclusief / 100 * btw
+  prijsInclusief = btwbedrag + prijsExclusief
 
   druk prijsInclusief
 einde
+  
 ```
